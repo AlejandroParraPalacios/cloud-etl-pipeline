@@ -1,0 +1,22 @@
+# Archivos sensibles y secretos
+Pipeline/.env
+Pipeline/Config_aws_policy.json
+Pipeline/trust-policy.json
+Pipeline/aws_s3_connection.sql
+
+# Carpeta de logs y cachés de Airflow
+Pipeline/logs/
+Pipeline/plugins/__pycache__/
+Pipeline/__pycache__/
+Pipeline/dags/__pycache__/
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos Python compilados
+*.pyc
+
+# Configuración de VSCode (opcional)
+.vscode/
