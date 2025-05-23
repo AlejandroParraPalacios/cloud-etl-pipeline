@@ -4,18 +4,19 @@ Este proyecto implementa un pipeline de procesamiento de datos utilizando `Apach
 
 ## 📂 Estructura del Proyecto
 
+```text
 PROJECT_5/
-├── Data/ # Archivos CSV originales del dataset de Meetup
-├── Pipeline/ # Configuración y orquestación de Airflow
-│ ├── dags/ # DAGs de Airflow
-│ ├── config/ # Configuración de Airflow
-│ ├── plugins/ # Funciones externas y configuraciones
-│ ├── logs/ # Logs generados por Airflow
-│ ├── .env.example # Variables de entorno de ejemplo
-│ ├── docker-compose.yaml # Entorno Docker para Airflow
-│ └── *.json, *.sql # Scripts SQL y políticas AWS
-├── Querys/ # Scripts SQL por tabla (para Snowflake)
-└── README.md
+├── Data/                  # Archivos CSV originales del dataset de Meetup
+├── Pipeline/              # Configuración y orquestación de Airflow
+│   ├── dags/              # DAGs de Airflow
+│   ├── config/            # Configuración de Airflow
+│   ├── plugins/           # Funciones externas y configuraciones personalizadas
+│   ├── logs/              # Logs generados por Airflow
+│   └── .env.example       # Variables de entorno de ejemplo
+├── docker-compose.yaml    # Entorno Docker para correr Airflow localmente
+├── *.json, *.sql          # Scripts SQL y políticas IAM para integración con AWS y Snowflake
+├── Querys/                # Scripts SQL por tabla (para Snowflake)
+└── README.md              # Documentación general del proyecto
 
 ## ⚙️ Tecnologías utilizadas
 
