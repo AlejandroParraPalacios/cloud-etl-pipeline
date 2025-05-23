@@ -17,6 +17,7 @@ PROJECT_5/
 ├── *.json, *.sql          # Scripts SQL y políticas IAM para integración con AWS y Snowflake
 ├── Querys/                # Scripts SQL por tabla (para Snowflake)
 └── README.md              # Documentación general del proyecto
+```
 
 ## ⚙️ Tecnologías utilizadas
 
